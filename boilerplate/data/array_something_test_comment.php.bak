@@ -1,0 +1,21 @@
+<?php
+/**
+ * @author      pfroch <info@easySolutionsIT.de>
+ * @link        http://easySolutionsIT.de
+ * @copyright   e@sy Solutions IT 2013
+ * @license     LGPL
+ * @package
+ * @filesource  something_test_comment.php.bak
+ * @version     1.0.0
+ * @since       31.05.13 - 17:11
+ *
+ * Auf die Testdaten kann in der Klasse something_test_comment
+ * ueber $this->arrData zugegriffen werden (z.B.: $this->arrData['testData']).
+ */
+
+// Festlegen der Vergleichsdaten
+$arrData['testData'] = array('Test01', 'Test02');
+
+
+// Zurueckgeben der Testdaten
+return $arrData;

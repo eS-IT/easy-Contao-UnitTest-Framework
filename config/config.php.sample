@@ -1,0 +1,47 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: pfroch
+ * Date: 25.11.12
+ * Time: 14:53
+ */
+
+
+switch($_SERVER['HTTP_HOST']){
+
+    // Liveserver
+    case '':
+        $config['dbname'] = '';
+        $config['dbuser'] = '';
+        $config['dbpass'] = '';
+        break;
+
+    // esit-Testserver
+    case '':
+        $config['dbname'] = '';
+        $config['dbuser'] = '';
+        $config['dbpass'] = '';
+        break;
+
+    // Entwicklungsserver
+    case '':
+        $config['dbname'] = '';
+        $config['dbuser'] = '';
+        $config['dbpass'] = '';
+        break;
+
+    default:
+        $config['dbname'] = '';
+        $config['dbuser'] = '';
+        $config['dbpass'] = '';
+        break;
+}
+
+
+$config['dbhost']           = 'localhost';
+$config['debug']            = false;
+$config['enableInfo']       = true;
+$config['testsuitename']    = 'e@sy Solutions IT - Contao Testsuite';
+
+
+return $config;

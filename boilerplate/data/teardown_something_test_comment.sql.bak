@@ -1,0 +1,11 @@
+-- Adminer 3.6.4 MySQL dump
+
+/* Der Tabellenname muss angepasst und diese Zeile geloescht werden!
+
+SET NAMES utf8;
+
+DROP TABLE IF EXISTS `tl_IRGENDWAS`;
+
+Dies Zeile muss auch geloescht werden! */
+
+-- 2013-05-30 23:13:05

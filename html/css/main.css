@@ -1,0 +1,218 @@
+body{
+    background: #f9f9f9;
+    background-attachment:fixed;
+    background-image: url('/files/unittests/html/img/wood-floors.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: #666;
+}
+
+#wrapper {
+    background-color: #fff;
+    box-shadow: 0 10px 20px #666;
+    margin: 0 auto;
+    padding: 1px 30px 30px 30px;
+    width: 920px;
+    border-radius: 10px;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+
+.content .result span{
+    cursor: pointer;
+}
+
+h1{
+    text-shadow: 2px 2px 2px #999;
+    text-align: center;
+}
+
+h1.borderbottom{
+    border-bottom: 1px solid #999;
+    padding-bottom: 20px;
+}
+
+h1 a{
+    color: #666;
+}
+
+h1 a:hover{
+    color: #666;
+    text-decoration: none;
+}
+
+h2{
+    border-top:  1px solid #999;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#summary{
+    margin: 20px 0 40px 0;
+    box-shadow: 3px 3px 10px #999;
+}
+
+#summary.text-success{
+    background-color: rgb(243, 247, 242);
+    border: 1px solid #393;
+}
+
+#summary.text-error{
+    background-color: rgb(247, 242, 242);
+    border: 1px solid #933;
+}
+
+#summary h3.strSummaryTxt{
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+
+.passed,
+.failed,
+.error,
+.exception,
+.skips{
+    margin-right: 5px;
+    margin-bottom: 2px;
+    /*pacity: 0.7;*/
+}
+
+.passed:hover,
+.failed:hover,
+.error:hover,
+.exception :hover,
+.skips:hover {
+    opacity: 1.0;
+}
+
+div.result{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+#summary .passed,
+#summary .failed,
+#summary .error,
+#summary .exception,
+#summary .skips{
+    margin-right: 15px;
+    margin-bottom: 2px;
+    opacity: 1;
+}
+
+span.summary.count{
+    display: inline-block;
+    font-weight: bold;
+    min-width: 12px;
+}
+
+#summary img.summaray{
+    margin-right: 5px;
+    line-height: 20px;
+    vertical-align: text-top;
+}
+
+#summary li{
+    display: inline-block;
+    margin-right: 60px;
+}
+#summary li.discreet{
+    color: #999;
+    opacity: 0.8;
+}
+
+.modal{
+    width: 700px;
+}
+
+.modal-body{
+    min-height: 250px;
+    overflow: auto;
+}
+
+div.stacktrace{
+    font-family: courier, serif;
+    font-size: 0.8em;
+}
+
+.text-small{
+    font-size: 0.9em;
+}
+
+.main-text{
+    border-bottom:  1px solid #999;
+    border-top:  1px solid #999;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.thistext{
+    font-style: italic;
+}
+
+/*
+ * Startbutton
+ */
+
+#wrapper #buttoncontainer{
+    margin-bottom: 40px;
+}
+
+.mybigbutton div{
+    border-radius: 25px;
+    background: #aebcbf; /* Old browsers */
+    background: -moz-linear-gradient(top,  #aebcbf 0%, #6e7774 50%, #0a0e0a 51%, #0a0809 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aebcbf), color-stop(50%,#6e7774), color-stop(51%,#0a0e0a), color-stop(100%,#0a0809)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
+    height: 70px;
+    margin-top: 30px;
+    width: 250px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 3px #666;
+}
+
+.mybigbutton div:hover{
+    opacity: 1;
+}
+
+.mybigbutton div img{
+    margin: -11px 10px 0 20px;
+}
+
+.mybigbutton span{
+    color: #fff;
+    font-size: 3em;
+}
+
+a.mybigbutton:hover{
+    text-decoration: none;
+}
+
+#buttoncontainer{
+    cursor: pointer;
+    margin: 0 auto;
+    width: 250px;
+}
+
+#buttoncontainer.spinner{
+    height: 60px;
+    margin-top: 40px;
+    width: 1px;
+}
+
+#testform .chzn-search input{
+    height: 25px;
+}
+
+#testform select{
+    width: 350px;
+}

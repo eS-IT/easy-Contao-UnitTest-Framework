@@ -1,0 +1,44 @@
+-- Adminer 3.6.4 MySQL dump
+
+SET NAMES utf8;
+
+DROP TABLE IF EXISTS `tl_article`;
+DROP TABLE IF EXISTS `tl_calendar`;
+DROP TABLE IF EXISTS `tl_calendar_events`;
+DROP TABLE IF EXISTS `tl_calendar_feed`;
+DROP TABLE IF EXISTS `tl_comments`;
+DROP TABLE IF EXISTS `tl_comments_notify`;
+DROP TABLE IF EXISTS `tl_content`;
+DROP TABLE IF EXISTS `tl_cron`;
+DROP TABLE IF EXISTS `tl_extension`;
+DROP TABLE IF EXISTS `tl_faq`;
+DROP TABLE IF EXISTS `tl_faq_category`;
+DROP TABLE IF EXISTS `tl_files`;
+DROP TABLE IF EXISTS `tl_form`;
+DROP TABLE IF EXISTS `tl_form_field`;
+DROP TABLE IF EXISTS `tl_layout`;
+DROP TABLE IF EXISTS `tl_log`;
+DROP TABLE IF EXISTS `tl_member`;
+DROP TABLE IF EXISTS `tl_member_group`;
+DROP TABLE IF EXISTS `tl_module`;
+DROP TABLE IF EXISTS `tl_news`;
+DROP TABLE IF EXISTS `tl_news_archive`;
+DROP TABLE IF EXISTS `tl_news_feed`;
+DROP TABLE IF EXISTS `tl_newsletter`;
+DROP TABLE IF EXISTS `tl_newsletter_channel`;
+DROP TABLE IF EXISTS `tl_newsletter_recipients`;
+DROP TABLE IF EXISTS `tl_page`;
+DROP TABLE IF EXISTS `tl_repository_installs`;
+DROP TABLE IF EXISTS `tl_repository_instfiles`;
+DROP TABLE IF EXISTS `tl_search`;
+DROP TABLE IF EXISTS `tl_search_index`;
+DROP TABLE IF EXISTS `tl_session`;
+DROP TABLE IF EXISTS `tl_style`;
+DROP TABLE IF EXISTS `tl_style_sheet`;
+DROP TABLE IF EXISTS `tl_theme`;
+DROP TABLE IF EXISTS `tl_undo`;
+DROP TABLE IF EXISTS `tl_user`;
+DROP TABLE IF EXISTS `tl_user_group`;
+DROP TABLE IF EXISTS `tl_version`;
+
+-- 2013-05-30 22:33:50

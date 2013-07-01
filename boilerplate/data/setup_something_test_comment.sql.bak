@@ -1,0 +1,21 @@
+-- Adminer 3.6.4 MySQL dump
+
+/* Der Tabellenname muss angepasst und diese Zeile geloescht werden!
+
+SET NAMES utf8;
+
+DROP TABLE IF EXISTS `tl_IRGENDWAS`;
+CREATE TABLE `tl_IRGENDWAS` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `tstamp` int(10) unsigned NOT NULL DEFAULT '0',
+  `title` varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+TRUNCATE `tl_IRGENDWAS`;
+INSERT INTO `tl_IRGENDWAS` (`id`, `tstamp`, `title`) VALUES
+(1, 1369948209, 'Test01');
+
+Dies Zeile muss auch geloescht werden! */
+
+-- 2013-05-30 23:13:05
